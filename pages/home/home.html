@@ -6,26 +6,30 @@
 
 <ion-content padding>
   <h2>Filmes em Destaque!</h2>
- <ion-card>
- <img src="https://www.themoviedb.org/t/p/w220_and_h330_face/klAIFewuqcyEmH1SMtR2XbMyqzM.jpg"/> 
-<ion-card-content> 
-<ion-card-title>
-  Godzilla vs Kong 
-</ion-card-title> 
-<p> 
-  24 de mar de 2021
-</p> 
-</ion-card-content> 
-</ion-card>
-<ion-card> 
-<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/v9XwEXYWpxt2rpkmFBiQ1zeyKUy.jpg"/> 
-<ion-card-content> 
-<ion-card-title> 
-  Liga da Justiça de Zack Snyder
-</ion-card-title> 
-<p> 
-  18 de mar de 2021
-</p> 
-</ion-card-content> 
-</ion-card>
+  <ion-card [navPush]="paginaGodzilla">
+    <img
+      src="https://www.themoviedb.org/t/p/w220_and_h330_face/klAIFewuqcyEmH1SMtR2XbMyqzM.jpg"
+    />
+    <ion-card-content>
+      <ion-card-title>
+        Godzilla vs Kong
+      </ion-card-title>
+      <p>
+        24 de mar de 2021
+      </p>
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <img
+      src="https://www.themoviedb.org/t/p/w220_and_h330_face/v9XwEXYWpxt2rpkmFBiQ1zeyKUy.jpg"
+    />
+    <ion-card-content>
+      <ion-card-title>
+        Liga da Justiça de Zack Snyder
+      </ion-card-title>
+      <p>
+        18 de mar de 2021
+      </p>
+    </ion-card-content>
+  </ion-card>
 </ion-content>
